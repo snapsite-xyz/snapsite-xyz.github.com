@@ -17,4 +17,21 @@ title = 'snapsite - Docs'
 [params.docs]
     title = "snapsite docs"
     themeColor = "red"
-    darkMode = true
+    toc             = true
+    tocMobile       = true                                # enable table of contents in mobile view? default is true
+    scrollSpy       = true 
+
+[markup]
+    [markup.tableOfContents]
+        endLevel = 3
+        startLevel = 1
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
+
+[menu]
+[[menu.primary]]
+    name  = "Docs"
+    url = "docs/"
+    identifier = "docs"
+    weight = 10
