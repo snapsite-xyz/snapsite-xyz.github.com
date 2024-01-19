@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Integrations on snapsite - Docs</title>
+    <link>https://docs.snapsite.xyz/docs/integrations/</link>
+    <description>Recent content in Integrations on snapsite - Docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 22 May 2023 00:34:57 +0100</lastBuildDate>
+    <atom:link href="https://docs.snapsite.xyz/docs/integrations/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Zapier</title>
+      <link>https://docs.snapsite.xyz/docs/integrations/zapier/</link>
+      <pubDate>Fri, 19 Jan 2024 08:41:02 +0100</pubDate>
+      <guid>https://docs.snapsite.xyz/docs/integrations/zapier/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>API</title>
+      <link>https://docs.snapsite.xyz/docs/integrations/api/</link>
+      <pubDate>Fri, 19 Jan 2024 08:41:02 +0100</pubDate>
+      <guid>https://docs.snapsite.xyz/docs/integrations/api/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

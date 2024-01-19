@@ -1,33 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>snapsite - Docs</title>
-    <link>https://docs.snapsite.xyz/</link>
-    <description>Recent content on snapsite - Docs</description>
+    <title>Docs on snapsite - Docs</title>
+    <link>https://docs.snapsite.xyz/docs/</link>
+    <description>Recent content in Docs on snapsite - Docs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 19 Jan 2024 08:41:02 +0100</lastBuildDate>
-    <atom:link href="https://docs.snapsite.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://docs.snapsite.xyz/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Getting Started</title>
       <link>https://docs.snapsite.xyz/docs/getting-started/</link>
       <pubDate>Fri, 19 Jan 2024 08:41:02 +0100</pubDate>
       <guid>https://docs.snapsite.xyz/docs/getting-started/</guid>
       <description>Begin using snapsite.&#xA;Mobile APPs linkAndroid linkiOS link</description>
-    </item>
-    <item>
-      <title>Zapier</title>
-      <link>https://docs.snapsite.xyz/docs/integrations/zapier/</link>
-      <pubDate>Fri, 19 Jan 2024 08:41:02 +0100</pubDate>
-      <guid>https://docs.snapsite.xyz/docs/integrations/zapier/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>API</title>
-      <link>https://docs.snapsite.xyz/docs/integrations/api/</link>
-      <pubDate>Fri, 19 Jan 2024 08:41:02 +0100</pubDate>
-      <guid>https://docs.snapsite.xyz/docs/integrations/api/</guid>
-      <description></description>
     </item>
     <item>
       <title>Example Page</title>
