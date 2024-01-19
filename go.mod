@@ -1,6 +1,6 @@
 module github.com/snapsite-xyz/snapsite-xyz.github.io
 
-go 1.21.6
+go 1.21.5
 
 require (
 	github.com/colinwilson/lotusdocs v0.1.0 // indirect
