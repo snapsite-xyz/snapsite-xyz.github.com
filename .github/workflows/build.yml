@@ -20,10 +20,10 @@ jobs:
       id: go
     
     - name: Install Dart Sass
-      run: snap install dart-sass
+      run: sudo snap install dart-sass
 
     - name: Install Hugo
-      run: snap install hugo
+      run: sudo snap install hugo
 
     - name: Check out code into the Go module directory
       uses: actions/checkout@v2
