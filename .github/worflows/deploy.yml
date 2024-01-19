@@ -15,17 +15,15 @@ jobs:
       with:
         go-version: ^1.13
       id: go
+    
+    - name: Install Dart Sass
+      run: snap install dart-sass
 
     - name: Check out code into the Go module directory
       uses: actions/checkout@v2
 
     - name: Install Hugo
-      run: |
-        cd ..
-        git clone https://github.com/gohugoio/hugo.git
-        cd hugo
-        go install
-        ls ~/go/bin
+      run: snap install hugo
 
     - name: Build Hugo
       run: ~/go/bin/hugo
