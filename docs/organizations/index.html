@@ -14,8 +14,9 @@
 
 <html lang="en-us"><head>
     <meta charset="utf-8" />
-    <title>API | snapsite docs</title>
+    <title>Organizations | snapsite docs</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Manage organizations in snapsite.">
     <meta name="keywords" content="Documentation, Hugo, Hugo Theme, Bootstrap" />
     <meta name="author" content="Colin Wilson - Lotus Labs" />
     <meta name="email" content="support@aigis.uk" />
@@ -28,15 +29,15 @@
 <link rel="icon" type="image/png" sizes="32x32" href="https://docs.snapsite.xyz/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="https://docs.snapsite.xyz/favicon-16x16.png">
 <link rel="manifest" crossorigin="use-credentials" href="https://docs.snapsite.xyz/site.webmanifest">
-<meta property="og:title" content="API" />
-<meta property="og:description" content="" />
+<meta property="og:title" content="Organizations" />
+<meta property="og:description" content="Manage organizations in snapsite." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://docs.snapsite.xyz/docs/integrations/api/" /><meta property="og:image" content="https://docs.snapsite.xyz/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_1596986225496406663.png"/><meta property="article:section" content="docs" />
-<meta property="article:published_time" content="2024-01-19T08:41:02+01:00" />
-<meta property="article:modified_time" content="2024-01-19T08:41:02+01:00" /><meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://docs.snapsite.xyz/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_1596986225496406663.png"/>
-<meta name="twitter:title" content="API"/>
-<meta name="twitter:description" content=""/>
+<meta property="og:url" content="https://docs.snapsite.xyz/docs/organizations/" /><meta property="og:image" content="https://docs.snapsite.xyz/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_15048743404021266971.png"/><meta property="article:section" content="docs" />
+<meta property="article:published_time" content="2023-05-22T00:34:57+01:00" />
+<meta property="article:modified_time" content="2023-05-22T00:34:57+01:00" /><meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://docs.snapsite.xyz/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_15048743404021266971.png"/>
+<meta name="twitter:title" content="Organizations"/>
+<meta name="twitter:description" content="Manage organizations in snapsite."/>
 
     
     
@@ -86,7 +87,7 @@
                 
                     
                         
-                        <li class="">
+                        <li class="current">
                             <a class="sidebar-root-link" href="https://docs.snapsite.xyz/docs/organizations/">
                                 
                                 Organizations
@@ -96,11 +97,11 @@
                 
                     
                     
-                        <li class="sidebar-dropdown no-icon current active">
+                        <li class="sidebar-dropdown no-icon ">
                             <button class="btn">
                                 Integrations
                             </button>
-                            <div class="sidebar-submenu d-block">
+                            <div class="sidebar-submenu ">
                                 <ul>
                                     
                                         
@@ -110,7 +111,7 @@
                                     
                                         
                                         
-                                            <li class="current no-icon"><a class="sidebar-nested-link" href="https://docs.snapsite.xyz/docs/integrations/api/">API</a></li>
+                                            <li class=" no-icon"><a class="sidebar-nested-link" href="https://docs.snapsite.xyz/docs/integrations/api/">API</a></li>
                                         
                                     
                                 </ul>
@@ -245,18 +246,10 @@
                     <meta itemprop="position" content='1' />
                 </li>
             
-            
-                <li class="breadcrumb-item text-capitalize" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                    <a itemprop="item" href="/docs/integrations/">
-                        <span itemprop="name">Integrations</span>
-                    </a>
-                    <meta itemprop="position" content='2' />
-                </li>
-            
         
             <li class="breadcrumb-item text-capitalize active" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                <span itemprop="name">API</span>
-                <meta itemprop="position" content='3' />
+                <span itemprop="name">Organizations</span>
+                <meta itemprop="position" content='2' />
             </li>
         
     </ul>
@@ -264,22 +257,38 @@
                                     
                                     <div class="row flex-xl-nowrap">
                                         
-                                        <div class="docs-toc col-xl-3  visually-hidden  d-xl-block"><toc>
+                                        <div class="docs-toc col-xl-3    d-xl-block"><toc>
     <div class="fw-bold text-uppercase mb-2">On this page</div>
-    <nav id="toc"></nav>
+    <nav id="toc">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#roles">Roles</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
     </toc></div>
                                         
                                         
-                                        <div class="docs-toc-mobile  visually-hidden  d-print-none d-xl-none">
+                                        <div class="docs-toc-mobile    d-print-none d-xl-none">
                                             <button id="toc-dropdown-btn" class="btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-offset="0,0" aria-expanded="false">
                                                 Table of Contents
                                             </button>
-<nav id="toc-mobile"></nav></div>
-                                        <div class="docs-content col-12  mt-0">
+<nav id="toc-mobile">
+  <ul class="dropdown-menu">
+    <li>
+      <ul>
+        <li><a href="#roles">Roles</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+                                        <div class="docs-content col-12 col-xl-9 mt-0">
                                             <div class="mb-0 d-flex">
                                                 
                                                 <h1 class="content-title mb-0">
-                                                    API
+                                                    Organizations
                                                     
                                                 </h1>
                                             </div>
@@ -288,7 +297,59 @@
                                                 
     
     <div data-prismjs-copy="" data-prismjs-copy-success="" data-prismjs-copy-error="">
-        
+        <p>In snapsite building sites are in organizations and users bellongs to organization.</p>
+<p>Users can have different rights on organizations.</p>
+<p>Anyone can register an organization.</p>
+<h2 id="roles">Roles <a href="#roles" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><p>In snapsite there are 5 possible roles:</p>
+<ul>
+<li>Owner</li>
+<li>Manager</li>
+<li>Editor</li>
+<li>Shooter</li>
+<li>Viewer</li>
+</ul>
+<p>Roles are applied on <em>Organizations</em>, <em>Building Sites</em> and <em>Folders</em> with a cascading logic. The role assigned for a resource for a user will be applied automatically on everything what is bellow in the tree.</p>
+<p>For example a user could be <em>shooter</em> on the entire organization, <em>editor</em> on a single building site and <em>manager</em> on a folder, of the same building site or of an other building site.</p>
+<p>When a</p>
+<table>
+<thead>
+<tr>
+<th>Action</th>
+<th>Owner</th>
+<th>Manager</th>
+<th>Editor</th>
+<th>Shooter</th>
+<th>Viewer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Change permissions on organization</td>
+<td>yes</td>
+<td>yes, can not change <em>owner</em>&rsquo;s permissions</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Change billing settings of organization</td>
+<td>yes</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>List building sites</td>
+<td>all</td>
+<td>all</td>
+<td>assigned only</td>
+<td>assigned only</td>
+<td>assigned only</td>
+</tr>
+</tbody>
+</table>
+
     </div>
 
     
@@ -300,20 +361,20 @@
 
 	<div class="row flex-xl-nowrap ">
 	<div class="col-sm-6 pt-2 doc-next">
-		<a href="/docs/integrations/zapier/">
+		<a href="/docs/getting-started/">
 			<div class="card h-100 my-1">
 				<div class="card-body py-2">
-                    <p class="card-title fs-5 fw-semibold lh-base mb-0"><i class="material-icons align-middle">navigate_before</i> Zapier</p>
+                    <p class="card-title fs-5 fw-semibold lh-base mb-0"><i class="material-icons align-middle">navigate_before</i> Getting Started</p>
 					
 				</div>
 			</div>
 		</a>
         </div>
 	<div class="col-sm-6 pt-2 doc-prev">
-		<a class="ms-auto" href="/docs/example-page/">
+		<a class="ms-auto" href="/docs/integrations/zapier/">
 			<div class="card h-100 my-1 text-end">
 				<div class="card-body py-2">
-                    <p class="card-title fs-5 fw-semibold lh-base mb-0">Example Page <i class="material-icons align-middle">navigate_next</i></p>
+                    <p class="card-title fs-5 fw-semibold lh-base mb-0">Zapier <i class="material-icons align-middle">navigate_next</i></p>
 					
 				</div>
 			</div>
