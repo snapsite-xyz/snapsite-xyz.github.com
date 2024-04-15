@@ -9,9 +9,45 @@ draft: false
 toc: true
 ---
 
-Begin using snapsite.
+Snapsite is built on a tree structure, the root is the organization, which contain building sites, each building site contains folder and each folder contains photos and videos.
 
 # Mobile APPs
+
+<div class="chooser mobile-os">
+  <div class="chooser-header">
+    <div class="option first ios" onclick="clickIos()">
+      iOS
+    </div>
+    <div class="option android" onclick="clickAndroid()">
+      Android
+    </div>
+  </div>
+  <div class="content content-ios">
+    ciaoooooo
+  </div>
+  <div class="content content-android">
+    ciaoooooo-android
+  </div>
+</div>
+
+cuao
+
+<div class="chooser mobile-os">
+  <div class="chooser-header">
+    <div class="option first ios" onclick="clickIos()">
+      iOS
+    </div>
+    <div class="option android" onclick="clickAndroid()">
+      Android
+    </div>
+  </div>
+  <div class="content content-ios">
+    ciaoooooo
+  </div>
+  <div class="content content-android">
+    ciaoooooo-android
+  </div>
+</div>
 
 ## Android
 

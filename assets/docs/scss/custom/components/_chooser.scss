@@ -1,0 +1,39 @@
+/*
+
+.chooser {
+  border: 1px solid var(--sidebar-border-color);
+  border-radius: 5px;
+}
+
+
+*/
+
+.chooser {
+  border: 1px solid var(--sidebar-border-color);
+  border-radius: 5px;
+}
+
+.chooser .chooser-header {
+  border-bottom: 1px solid var(--sidebar-border-color);
+}
+
+.chooser .chooser-header .option {
+  display: inline-block;
+  padding: 10px;
+}
+
+.chooser .chooser-header .option.active {
+  background-color: hsla( 1, 84%, 59%, 0.3);
+  border-bottom:1px solid var(--primary);
+}
+.chooser .chooser-header .option.first {
+  border-top-left-radius: 5px;
+}
+
+.chooser .content {
+  padding: 10px;
+}
+
+.chooser .content.hide {
+  display: none;
+}

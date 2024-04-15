@@ -100,5 +100,8 @@
                 {{- partialCached (printf "%s/%s" ($.Scratch.Get "pathName") "footer/flexsearch.html") . -}}
             {{ end }}
         {{ end }}
+        
+        {{ $chooser := resources.Get (printf "/%s/%s" ($.Scratch.Get "pathName") "js/chooser.js") }}
+        <script>{{ $chooser.Content | safeJS }}</script>
     </body>
 </html>
