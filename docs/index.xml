@@ -4,7 +4,7 @@
     <title>Docs on snapsite - Docs</title>
     <link>https://docs.snapsite.xyz/docs/</link>
     <description>Recent content in Docs on snapsite - Docs</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 19 Jan 2024 08:41:02 +0100</lastBuildDate>
     <atom:link href="https://docs.snapsite.xyz/docs/index.xml" rel="self" type="application/rss+xml" />
@@ -16,11 +16,11 @@
       <description>Snapsite is built on a tree structure, the root is the organization, which contain building sites, each building site contains folder and each folder contains photos and videos.&#xA;Mobile APPs link iOS Android ciaoooooo ciaoooooo-android cuao&#xA;iOS Android ciaoooooo ciaoooooo-android Android linkiOS link</description>
     </item>
     <item>
-      <title>Organizations</title>
-      <link>https://docs.snapsite.xyz/docs/organizations/</link>
+      <title>Collaboration</title>
+      <link>https://docs.snapsite.xyz/docs/collaboration/</link>
       <pubDate>Mon, 22 May 2023 00:34:57 +0100</pubDate>
-      <guid>https://docs.snapsite.xyz/docs/organizations/</guid>
-      <description>In snapsite building sites are in organizations and users bellongs to organization.&#xA;Users can have different rights on organizations.&#xA;Anyone can register an organization.&#xA;Roles linkIn snapsite there are 5 possible roles:&#xA;Owner Manager Editor Shooter Viewer Roles are applied on Organizations, Building Sites and Folders with a cascading logic. The role assigned for a resource for a user will be applied automatically on everything what is bellow in the tree.</description>
+      <guid>https://docs.snapsite.xyz/docs/collaboration/</guid>
+      <description>Collaboration on snapsite&#xA;To collaborate on a snapsite, you should invite your colleagues. You can invite them through their role, we have the following roles:&#xA;Owner&#xA;The person who setted up the organisation, manages billings and is allowed for dangerous operations such as deleting the entire organisation. Manager&#xA;A person who is allowed to manage other members of the organisation, create and delete building sites. Editor&#xA;A person who is allowed to add and modify the content of a building site, such as folders and files.</description>
     </item>
     <item>
       <title>Example Page</title>
